@@ -151,7 +151,7 @@ export default {
                 this.saEvent("step_download");
 
                 if (this.releaseIndex === undefined) {
-                    let indexResp = await fetch("/releases/index.json");
+                    let indexResp = await fetch("/resources/index.json");
                     this.releaseIndex = await indexResp.json();
                 }
 
