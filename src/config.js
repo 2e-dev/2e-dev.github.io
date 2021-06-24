@@ -8,9 +8,9 @@ export default {
         },
     ],
     RELEASE_VARIANTS: {
-        UNOFFICIAL: {
+        betaL: {
             description: "Unofficial builds.",
-            suffix: "UNOFFICIAL",
+            suffix: "beta",
         },
     },
 };
