@@ -1,6 +1,6 @@
 export default {
     OS_NAME: process.env.VUE_APP_OS_NAME,
-    ACCENT_COLOR: "#0366d6",
+    ACCENT_COLOR: "#167C80",
     SUPPORTED_DEVICES: [
         {
             name: "Teracube 2e",
